@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tickle</string>
+    <string name="login_button">Sign In</string>
+    <string name="welcome">Welcome</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_your_email_address">Enter your email address</string>
+    <string name="your_password_reset_instructions">your password reset instructions</string>
+    <string name="please_enter_your_email_or_phone_no_below_to_receive">Please enter your email or phone below to receive</string>
+    <string name="forgot_password_1">Forgot Password?</string>
+    <string name="or">OR</string>
+    <string name="send_now">Send Now</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="set_new_password">Set New Password</string>
+</resources>
