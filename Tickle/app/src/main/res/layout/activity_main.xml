@@ -22,7 +22,7 @@
         android:layout_height="33dp"
         android:textSize="24sp"
         android:layout_gravity="center"
-        android:layout_marginTop="54dp"
+        android:layout_marginTop="30dp"
         android:layout_marginLeft="129dp"
         android:layout_marginRight="129dp"
         android:text="@string/welcome"
@@ -79,7 +79,7 @@
             android:onClick = "login"
             android:text = "@string/login_button"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="28dp"
+            android:layout_marginTop="16dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button"
             />

@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity {
                         password.getText().toString().equals("abc123")){
                     Toast.makeText(getApplicationContext(),
                             "Redirecting...",Toast.LENGTH_SHORT).show();
-                    Intent interest= new Intent(MainActivity.this, Select_Interest.class);
-                    startActivity(interest);
+                    Intent select= new Intent(MainActivity.this,SelectInterest.class);
+                    startActivity(select);
                 } else{ Toast.makeText(getApplicationContext(), "Invalid username or password!"
                         ,Toast.LENGTH_SHORT).show();
                 }
