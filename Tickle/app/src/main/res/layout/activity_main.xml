@@ -67,10 +67,20 @@
         android:textColorHint = "#4d000000"
         android:inputType = "textPassword"
         />
+
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/wrongcredentials"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Invalid username or password!"
+            android:textColor="#ec1943"
+            android:textSize="12sp"
+            android:visibility="invisible" />
 
         <Button
             android:id = "@+id/button1"
@@ -79,7 +89,7 @@
             android:onClick = "login"
             android:text = "@string/login_button"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="10dp"
             android:background="@drawable/button"
             />

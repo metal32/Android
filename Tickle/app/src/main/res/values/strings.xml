@@ -15,4 +15,9 @@
     <string name="enter_otp">Enter OTP</string>
     <string name="enter_password">Enter Password</string>
     <string name="set_new_password">Set New Password</string>
+    <string name="skip">skip</string>
+    <string name="select_your_interest">Select your interest</string>
+    <string name="thanks">Thanks!</string>
+    <string name="back_to_sign_in">Back to Sign In!</string>
+    <string name="done">Done!</string>
 </resources>

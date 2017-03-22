@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".Forgot_password" />
         <activity android:name=".ResetPassword" />
-        <activity android:name=".SelectInterest"></activity>
+        <activity android:name=".SelectInterest" />
+        <activity android:name=".Final"></activity>
     </application>
 
 </manifest>

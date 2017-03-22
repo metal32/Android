@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final EditText username = (EditText)findViewById(R.id.editText1);
         final EditText password = (EditText)findViewById(R.id.editText2);
+        final TextView wrongCredentials=(TextView)findViewById((R.id.wrongcredentials));
         Button button1 = (Button)findViewById(R.id.button1);
         TextView text_view2= (TextView)findViewById(R.id.text_view2);
         button1.setOnClickListener(new View.OnClickListener(){
@@ -29,8 +30,8 @@ public class MainActivity extends AppCompatActivity {
                             "Redirecting...",Toast.LENGTH_SHORT).show();
                     Intent select= new Intent(MainActivity.this,SelectInterest.class);
                     startActivity(select);
-                } else{ Toast.makeText(getApplicationContext(), "Invalid username or password!"
-                        ,Toast.LENGTH_SHORT).show();
+                } else{
+                    wrongCredentials.setVisibility(View.VISIBLE);
                 }
             }
         });
