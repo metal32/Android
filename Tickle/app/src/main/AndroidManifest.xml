@@ -20,7 +20,9 @@
         <activity android:name=".Forgot_password" />
         <activity android:name=".ResetPassword" />
         <activity android:name=".SelectInterest" />
-        <activity android:name=".Final"></activity>
+        <activity android:name=".Final" />
+        <activity android:name=".Welcome" />
+        <activity android:name=".Meme"></activity>
     </application>
 
 </manifest>

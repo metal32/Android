@@ -14,13 +14,24 @@ public class Final extends AppCompatActivity {
         setContentView(R.layout.activity_final);
 
         final Button button5 = (Button)findViewById(R.id.button5);
+        final Button button6 = (Button)findViewById(R.id.button6);
         button5.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 Intent reset_pass= new Intent(Final.this,MainActivity.class);
                 startActivity(reset_pass);
+                finish();
             }
         });
+        button6.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent continue_further= new Intent(Final.this,Meme.class);
+                startActivity(continue_further);
+                finish();
+            }
+        });
+
 
 
     }

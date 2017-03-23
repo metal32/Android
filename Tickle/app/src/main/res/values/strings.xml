@@ -20,4 +20,10 @@
     <string name="thanks">Thanks!</string>
     <string name="back_to_sign_in">Back to Sign In!</string>
     <string name="done">Done!</string>
+    <string name="latest_updates">Latest Updates</string>
+    <string name="chat_with_anyone">Chat with Anyone</string>
+    <string name="ican_power_to_employee">iCAN Power to Employee</string>
+    <string name="next">next</string>
+    <string name="start">Got it!</string>
+    <string name="continue_moving">Continue moving</string>
 </resources>

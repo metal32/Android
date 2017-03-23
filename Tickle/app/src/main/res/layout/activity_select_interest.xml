@@ -62,7 +62,7 @@
                     android:id="@+id/image2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/card_background" />
+                    android:src="@drawable/mask" />
                 <ImageView
                     android:id="@+id/image8"
                     android:layout_width="wrap_content"
@@ -103,7 +103,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/card_background" />
+                    android:src="@drawable/mask2" />
                 <ImageView
                     android:id="@+id/image9"
                     android:layout_width="wrap_content"
@@ -135,7 +135,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/card_background" />
+                    android:src="@drawable/mask3" />
                 <ImageView
                     android:id="@+id/image10"
                     android:layout_width="wrap_content"
@@ -175,7 +175,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/card_background" />
+                    android:src="@drawable/mask4" />
                 <ImageView
                     android:id="@+id/image11"
                     android:layout_width="wrap_content"
@@ -207,7 +207,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="0dp"
-                    android:src="@drawable/card_background" />
+                    android:src="@drawable/mask5" />
                 <ImageView
                     android:id="@+id/image12"
                     android:layout_width="wrap_content"

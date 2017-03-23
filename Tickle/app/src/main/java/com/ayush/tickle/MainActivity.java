@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
                         password.getText().toString().equals("abc123")){
                     Toast.makeText(getApplicationContext(),
                             "Redirecting...",Toast.LENGTH_SHORT).show();
-                    Intent select= new Intent(MainActivity.this,SelectInterest.class);
+                    Intent select= new Intent(MainActivity.this,Welcome.class);
                     startActivity(select);
                 } else{
                     wrongCredentials.setVisibility(View.VISIBLE);
